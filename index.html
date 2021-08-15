@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pioneer-Bank</title>
+    <!-- tailwind css cdn link -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <h1 class="text-6xl font-bold text-center mt-16">
+            Welcome to <span class="text-red-600">Asia Bank</span>
+        </h1>
+    </header>
+    <main>
+        <section class="bg-yellow-100 w-3/4 mx-auto mt-12 p-10 rounded">
+            <h2 class="text-4xl font-semibold mb-6 ">Please Login</h2>
+            <div>
+                <input id="userEmail" class="border-2 border-grey-200 rounded block p-2 w-3/4 mb-2" type="email"
+                    name="email" id="" placeholder="Enter your email" required />
+
+
+                <input id="userPassword" class="border-2 border-grey-200 rounded block p-2 w-3/4 mb-2" type="password"
+                    name="pass" id="" placeholder="Enter your password" required />
+                <button id="loginButton"
+                    class="bg-red-500 hover:bg-red-700 px-6 py-2 rounded text-white font-semibold">Submit</button>
+            </div>
+        </section>
+    </main>
+    <!-- external javaScript file -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
